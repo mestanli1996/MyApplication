@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="109dp">
+
+        <Button
+            android:id="@+id/Button_Add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_add"
+            android:backgroundTint="#F3EFEF"
+            android:drawableTop="@android:drawable/ic_menu_add"
+            android:drawablePadding="-15sp"
+            android:paddingTop="20sp"
+            android:text="Soru Ekle"
+            android:textColor="#090909"></Button>
+        <Button
+            android:id="@+id/Button_List"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F3EFEF"
+            android:background="?android:attr/listChoiceIndicatorMultiple"
+            android:drawableTop="?android:attr/listChoiceIndicatorMultiple"
+            android:drawablePadding="-15sp"
+            android:textColor="#090909"
+            android:paddingTop="20sp"
+            android:text="Soru Listele"></Button>
+
+        <Button
+            android:id="@+id/Button_Create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_crop"
+            android:backgroundTint="#F3EFEF"
+            android:drawableTop="@android:drawable/ic_menu_crop"
+            android:drawablePadding="-15sp"
+            android:paddingTop="20sp"
+            android:text="Soru Oluştur"
+            android:textColor="#090909"></Button>
+
+        <Button
+            android:id="@+id/Button_Options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F3EFEF"
+            android:background="@android:drawable/ic_input_get"
+            android:drawableTop="@android:drawable/ic_input_get"
+            android:drawablePadding="-15sp"
+            android:textColor="#090909"
+            android:paddingTop="20sp"
+            android:text="Sınav Ayarları"></Button>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
